@@ -1,0 +1,98 @@
+[
+    {
+        "title": "Moment",
+        "slug": "moment",
+        "url": "https://momentjs.com/",
+        "npm": "npm install moment"
+    },
+    {
+        "title": "Modaal",
+        "slug": "modaal",
+        "url": "https://humaan.com/modaal/",
+        "npm": "npm install modaal"
+    },
+    {
+        "title": "Swiper",
+        "slug": "swiper",
+        "url": "https://swiperjs.com/",
+        "npm": "npm install swiper"
+    },
+    {
+        "title": "Three.js",
+        "slug": "three",
+        "url": "https://threejs.org/",
+        "npm": "npm install three"
+    },
+    {
+        "title": "Anime.js",
+        "slug": "anime",
+        "npm": "npm install animejs",
+        "url": "https://animejs.com/"
+    },
+    {
+        "title": "Howler.js",
+        "slug": "howler",
+        "npm": "npm install howler",
+        "url": "https://howlerjs.com/"
+    },
+    {
+        "title": "PixiJS",
+        "slug": "pixi",
+        "url": "https://www.pixijs.com/",
+        "npm": "npm install pixi.js"
+    },
+    {
+        "title": "Chart.js",
+        "slug": "chart",
+        "url": "https://www.chartjs.org/",
+        "npm": "npm install chart.js"
+    },
+    {
+        "title": "Video.js",
+        "slug": "video",
+        "url": "https://videojs.com/",
+        "npm": "npm install video.js"
+    },
+    {
+        "title": "Highway",
+        "slug": "highway",
+        "url": "https://highway.js.org/",
+        "npm": "npm install @dogstudio/highway"
+    },
+    {
+        "title": "GSAP",
+        "slug": "gsap",
+        "url": "https://greensock.com/gsap/",
+        "npm": "npm install gsap"
+    },
+    {
+        "title": "Animate on Scroll",
+        "slug": "aos",
+        "url": "https://michalsnik.github.io/aos/",
+        "npm": "npm install aos"
+    },
+    {
+        "title": "Particles.js",
+        "slug": "particles",
+        "url": "https://vincentgarreau.com/particles.js/",
+        "npm": "npm install particles.js"
+    },
+    {
+        "title": "Embla Carousel",
+        "slug": "embla",
+        "url": "https://davidcetinkaya.github.io/embla-carousel/",
+        "npm": "npm install embla-carousel"
+    },
+    {
+        "title": "Dragula",
+        "slug": "dragula",
+        "url": "https://bevacqua.github.io/dragula/",
+        "npm": "npm install dragula"
+    },
+    {
+        "title": "Fullpage",
+        "slug": "fullpage",
+        "url": "https://alvarotrigo.com/fullPage/",
+        "npm": "npm install fullpage.js"
+    }
+]
