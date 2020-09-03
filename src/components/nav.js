@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
+import { Link } from 'react-scroll';
 
 const Nav = () => {
     const data = useStaticQuery(graphql`
@@ -18,9 +19,9 @@ const Nav = () => {
         <div className="nav">
             <nav>
                 {data.allLibrariesJson.edges.map((item) => (
-                    <a className="nav-link" href={`/#${item.node.slug}`}>
+                    <Link className="nav-link" activeClass="is-active" to={item.node.slug} spy={true} smooth={true} offset={-20} duration={500}>
                         {item.node.title}
-                    </a>
+                    </Link>
                 ))}
             </nav>
         </div>

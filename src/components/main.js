@@ -23,7 +23,7 @@ const Main = () => {
             <ul className="list">
                 {data.allLibrariesJson.edges.map((item) => {
                     return (
-                        <li className="item" key={item.node.id} id={`#${item.node.slug}`}>
+                        <li className="item" key={item.node.id} name={item.node.slug}>
                             <h2>{item.node.title}</h2>
                             <pre>{item.node.npm}</pre>
                             <a href={item.node.url} target="_blank">

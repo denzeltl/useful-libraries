@@ -3,9 +3,7 @@ import React from 'react';
 const Header = () => (
     <header className="header">
         <div className="wrapper">
-            <a href="#">
-                <h1>Useful Libraries</h1>
-            </a>
+            <h1>Useful Libraries</h1>
         </div>
     </header>
 );
