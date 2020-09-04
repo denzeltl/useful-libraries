@@ -159,7 +159,60 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+    .header {
+        background: $main-color;
+        width: 100%;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1 {
+            display: inline-block;
+            color: #fff;
+            font-size: 1.625rem;
+        }
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .main {
+        padding: 1.65rem 2.25rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
+    html {
+        font-size: 16px;
+    }
+
+    .header {
+        background: $main-color;
+        width: 100%;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1 {
+            display: inline-block;
+            color: #fff;
+            font-size: 1.45rem;
+        }
+    }
+
+    .main {
+        padding: 1.65rem;
+        .item {
+            h2 {
+                font-size: 1.25rem;
+            }
+            pre {
+                font-size: 0.85rem;
+            }
+            a {
+                font-size: 0.9rem;
+            }
+        }
+    }
 }
