@@ -2,11 +2,11 @@
 
 A collection of libraries that I find useful. It uses GraphQL to fetch data from a JSON file where the libraries are stored.
 
-View project [here](PROJECT URL)
+View project [here](https://denzeltl-libraries.netlify.app/)
 
 **Built with:** _Gatsby, GraphQL, Netlify_
 
-**Completed on:** _mm/dd/yyyy_
+**Completed on:** _05/09/2020_
 
 ---
 
